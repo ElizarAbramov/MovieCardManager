@@ -128,31 +128,4 @@ public class MovieCardManagerTest {
 }
 
 
-/*
-    @BeforeEach
-    public void setUp() {
-        manager.add(bloodshot);
-        manager.add(onward);
-        manager.add(otelBelgrad);
-        manager.add(theGentlemen);
-        manager.add(theInvisibleMan);
-        manager.add(trollsWorldTour);
-        manager.add(nomerOdin);
-        manager.add(legend);
-        manager.add(theBestMovie);
-        manager.add(up);
-    }
-*/
-    /*private MovieCardManager manager = new MovieCardManager();
-    private MovieCard bloodshot = new MovieCard(1, 1, "bloodshot", "action", false);
-    private MovieCard onward = new MovieCard(2, 2, "onward", "cartoon", false);
-    private MovieCard otelBelgrad = new MovieCard(3, 3, "otelBelgrad", "comedy", false);
-    private MovieCard theGentlemen = new MovieCard(4, 4, "theGentlemen", "action", false);
-    private MovieCard theInvisibleMan = new MovieCard(5, 5, "theInvisibleMan", "thriller", false);
-    private MovieCard trollsWorldTour = new MovieCard(6, 6, "trollsWorldTour", "cartoon", true);
-    private MovieCard nomerOdin = new MovieCard(7, 7, "nomerOdin", "comedy", true);
-    private MovieCard legend = new MovieCard(8, 8, "legend", "fantasy", true);
-    private MovieCard theBestMovie = new MovieCard(9, 9, "theBestMovie", "comedy", false);
-    private MovieCard up = new MovieCard(10, 10, "up", "cartoon", false);*/
-
 
