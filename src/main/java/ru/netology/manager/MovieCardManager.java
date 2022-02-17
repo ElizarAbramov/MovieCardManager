@@ -26,7 +26,7 @@ public class MovieCardManager {
         movies = tmp;
     }
 
-    public MovieCard[] getall() {
+    public MovieCard[] getAll() {
         int resultLength;
         if (movies.length < numberOfMovies) {
             resultLength = movies.length;
@@ -34,15 +34,15 @@ public class MovieCardManager {
             resultLength = numberOfMovies;
         }
 
-            MovieCard[] result = new MovieCard[resultLength];
-            for (int i = 0; i < result.length; i++) {
-                int index = resultLength - i - 1;
-                result[i] = movies[index];
+        MovieCard[] result = new MovieCard[resultLength];
+        for (int i = 0; i < result.length; i++) {
+            int index = resultLength - i - 1;
+            result[i] = movies[index];
 
-            }
-            return result;
         }
+        return result;
     }
+}
 
 
 

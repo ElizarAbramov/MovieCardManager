@@ -2,6 +2,7 @@ package ru.netology.manager;
 
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.MovieCard;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
@@ -31,7 +32,7 @@ public class MovieCardManagerTest {
         manager.add(legend);
         manager.add(theBestMovie);
         manager.add(up);
-        MovieCard[] actual = manager.getall();
+        MovieCard[] actual = manager.getAll();
         MovieCard[] expected = new MovieCard[]{up, theBestMovie, legend, nomerOdin, trollsWorldTour, theInvisibleMan, theGentlemen, otelBelgrad, onward, bloodshot};
         assertArrayEquals(expected, actual);
     }
@@ -61,7 +62,7 @@ public class MovieCardManagerTest {
         manager.add(theBestMovie);
         manager.add(up);
 
-        MovieCard[] actual = manager.getall();
+        MovieCard[] actual = manager.getAll();
         MovieCard[] expected = new MovieCard[]{theGentlemen, otelBelgrad, onward, bloodshot};
         assertArrayEquals(expected, actual);
     }
@@ -91,7 +92,7 @@ public class MovieCardManagerTest {
         manager.add(theBestMovie);
 
 
-        MovieCard[] actual = manager.getall();
+        MovieCard[] actual = manager.getAll();
         MovieCard[] expected = new MovieCard[]{theBestMovie, legend, nomerOdin, trollsWorldTour, theInvisibleMan, theGentlemen, otelBelgrad, onward, bloodshot};
         assertArrayEquals(expected, actual);
     }
@@ -121,7 +122,7 @@ public class MovieCardManagerTest {
         manager.add(theBestMovie);
 
 
-        MovieCard[] actual = manager.getall();
+        MovieCard[] actual = manager.getAll();
         MovieCard[] expected = new MovieCard[]{};
         assertArrayEquals(expected, actual);
     }
