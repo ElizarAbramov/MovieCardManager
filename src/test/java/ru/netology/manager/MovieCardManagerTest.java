@@ -63,7 +63,7 @@ public class MovieCardManagerTest {
         manager.add(up);
 
         MovieCard[] actual = manager.getAll();
-        MovieCard[] expected = new MovieCard[]{theGentlemen, otelBelgrad, onward, bloodshot};
+        MovieCard[] expected = new MovieCard[]{up, theBestMovie, legend, nomerOdin};
         assertArrayEquals(expected, actual);
     }
 

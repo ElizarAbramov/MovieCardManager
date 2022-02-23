@@ -36,7 +36,7 @@ public class MovieCardManager {
 
         MovieCard[] result = new MovieCard[resultLength];
         for (int i = 0; i < result.length; i++) {
-            int index = resultLength - i - 1;
+            int index = movies.length - i - 1;
             result[i] = movies[index];
 
         }
